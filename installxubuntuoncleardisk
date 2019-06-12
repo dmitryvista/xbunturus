@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+<meta name="description" content="Подбор и скачивание образа Xubuntu.">
+<link href="style.css" rel="stylesheet">
+<link href='favicon.ico' rel='icon' type='image/x-icon'/>
+<head>
+<title>Подбор и скачивание образа Xubuntu | Xubuntu для начинающих | Сайт проекта про Xubuntu</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141189324-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-141189324-1');
+</script>
+</head>
+<body style="font-family:sans-serif;" background="imgs/main/background.png">
+  <center><h1><a href="index.html">Сайт проекта про Xubuntu</a></h1></center><script>
+  (function() {
+    var cx = '003506609626400034942:whon31w-ddm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<ul class="menu">
+<li><a href="index.html"> Главная страница </a></li>
+<li><a href="blog.html"> Блог </a></li>
+<li><a href="contacts.html"> Контакты </a></li>
+<li><a href="xubuntu.html"> Что такое Xubuntu? </a><li>
+<li><a href="xubuntuforstarters.html" class="selected"> Xubuntu для начинающих </a></li>
+<li><a href="about.html"> О проекте про Xubuntu </a></li>
+</ul><br>
+<a href="xubuntuforstarters.html">&larr; Xubuntu для начинающих.</a><br>
+<p>После того, как мы в <a href="capturexubuntuiso.html">прошлом уроке</a> запустились с накопителя, на котором записан образ Xubuntu, вы можете попробовать Xubuntu без установки либо установить Xubuntu. В этом уроке, мы будем устанавливать Xubuntu на чистый жёсткий диск.</p>
+<p>Когда мы выбрали установку Xubuntu, выбираем там свой язык, в этапе подготовки к установке ставим галочки на установку обновлений и установку стороннего программного обеспечения, в типе установки рекомендуется выбрать "Другой вариант", дальше создать корневой (системный) раздел с точкой монтирования <code>/</code> и файловой системой ext4, выделить ему рекомендуем около 50 гигабайт (51200 МБ), а остальное пространство нужно создать под домашний раздел (точка монтирования: <code>/home</code>, файловая система ext4). Если вы устанавливаете Xubuntu 16.10 и более старую версию, то вам необходимо до создания домашнего раздела создать раздел подкачки, рекомендуем для него выделить около 5 ГБ (5120 МБ). Дальше выбираем свой часовой пояс, раскладку клавиатуры и указать данные для своего пользователя. Начнётся установка.</p>
+<hr>
+<font size="3"><i style="font-family:roman;">© Проект про Xubuntu, 2019.<br>© DmitryVista, 2014-2019.</i></font>
+</body>
+</meta>
+</html>
