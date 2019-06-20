@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+<meta name="description" content="Инструкция по установке WPS Office в Xubuntu.">
+<link href="style.css" rel="stylesheet">
+<link href='favicon.ico' rel='icon' type='image/x-icon'/>
+<head>
+<title>Сайт про Xubuntu</title>
+<meta name="google-site-verification" content="6wmOUL4Bs2zBOq1Npqyvf4OfHfnba_wpF_wwbIBYIkA" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141189324-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-141189324-1');
+</script>
+</head>
+<body style="font-family:sans-serif;" background="imgs/main/background.png">
+  <center><h1><a href="index.html">Сайт про Xubuntu</a></h1></center><script>
+  (function() {
+    var cx = '003506609626400034942:whon31w-ddm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<ul class="menu">
+<li><a href="index.html" class="selected"> Главная страница </a></li>
+<li><a href="blog.html"> Блог </a></li>
+<li><a href="contacts.html"> Контакты </a></li>
+<li><a href="xubuntu.html"> Что такое Xubuntu? </a><li>
+<li><a href="xubuntuforstarters.html"> Xubuntu для начинающих </a></li>
+<li><a href="about.html"> О проекте про Xubuntu </a></li>
+</ul>
+<br>
+<a href="blog.html">&larr; Записи в блоге сайта.</a><br>
+<font size="5">Установка WPS Office в Xubuntu.</font><br><small><b>Опубликовано 20 июня 2019.</b></small>
+<p>В данной записи мы будем устанавливать WPS Office в Xubuntu. <a href="https://www.wps.com/">WPS Office</a> является офисным пакетом, который был разработан китайской компанией <a href="https://en.wikipedia.org/wiki/Kingsoft">Kingsoft</a> и является одним из бесплатных офисных пакетов.</p>
+<p>Заходим на сайт <a href="http://wps-community.org/">http://wps-community.org/</a>, нажимаем на кнопку "Get it now" и в блоке "Addresses" выбираем пакет с amd64.deb (64-бита) либо с i386.deb (32-бита) в конце, но всё зависит от вашей архитектуры процессора. Начинаем скачивать файл.</p>
+<p>После того, как наш файл скачался, открываем директорию, где он скачался и открывает оттуда терминал. Там пишем команду: <code>sudo dpkg -i wps*</code>.</p>
+<p>После этого, WPS Office установился. Но он на английском языке, так что нам ещё его нужно и русифицировать. Нам нужно скачать пакет русского языка по ссылке <a href="https://bit.ly/WPSLinuxRusPack">https://bit.ly/WPSLinuxRusPack</a>. Скачиваем архив и распаковываем его. В папке "office6" нам нужно скопировать папку "mui". После этого заходим в папку ~/.local/share/Kingsoft/office6 и там вставляем папку "mui". Дальше открываем WPS Writer, создаём новый документ, выбираем указывающую вниз стрелку после "Menu", выбираем "Tools", затем "Choose Language". В появившемся окне снимаем флажок с "Follow system locale" и там выбираем русский язык. Перезагружаем WPS Office и смотрим на результат.</p>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/mHhKfet_gmE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+<font size="3"><i style="font-family:roman;">© Проект про Xubuntu, 2019.<br>© DmitryVista, 2014-2019.</i></font>
+</body>
+</meta>
+</html>
