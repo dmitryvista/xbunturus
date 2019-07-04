@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+<meta name="description" content="Инструкция по установке и удалении пакетов в Xubuntu. 1 часть.">
+<link href="style.css" rel="stylesheet">
+<link href='favicon.ico' rel='icon' type='image/x-icon'/>
+<head>
+<title>Установка и удаление пакетов в Xubuntu (1 часть) | Сайт про Xubuntu</title>
+<meta name="google-site-verification" content="6wmOUL4Bs2zBOq1Npqyvf4OfHfnba_wpF_wwbIBYIkA" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141189324-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-141189324-1');
+</script>
+</head>
+<body style="font-family:sans-serif;" background="imgs/main/background.png">
+  <center><h1><a href="index.html">Сайт про Xubuntu</a></h1></center><script>
+  (function() {
+    var cx = '003506609626400034942:whon31w-ddm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<ul class="menu">
+<li><a href="index.html"> Главная страница </a></li>
+<li><a href="blog.html" class="selected"> Блог </a></li>
+<li><a href="contacts.html"> Контакты </a></li>
+<li><a href="xubuntu.html"> Что такое Xubuntu? </a><li>
+<li><a href="xubuntuforstarters.html"> Xubuntu для начинающих </a></li>
+<li><a href="about.html"> О проекте про Xubuntu </a></li>
+</ul>
+<br>
+<a href="blog.html">&larr; Записи в блоге сайта.</a><br>
+<font size="5">Установка и удаление пакетов в Xubuntu (1 часть).</font><br><small><b>Опубликовано 4 июля 2019.</b></small>
+<p>В этой записи мы узнаем, как устанавливать и удалять пакеты в Xubuntu. Это первая часть данной записи. Данная запись должна заменить все видео типа установок всяких приложений в Xubuntu.</p>
+<p>Сначала вы можете использовать магазин приложений, встроенный в Xubuntu. С него можно запросто устанавливать приложения. Нужно найти приложение, его установить либо удалить. Но мы будем переходить к более продвинутым способам.</p>
+<p>Первый способ — установка пакетов с репозитория Ubuntu. Это делается с помощью команд в терминале. Для поиска приложения в репозиториях, вы можете использовать <code>sudo apt search <название_пакета></code>. Для установки приложения из репозитория Ubuntu, вы можете использовать команду <code>sudo apt install <название_пакета></code>. Для удаления приложения, которое было установлено с файла пакета Debian или установленного с репозитория Ubuntu используется команда <code>sudo apt remove <название_пакета></code>.</p>
+<p>Вторым способом является установка приложения с репозитория <a href="http://snapcraft.io/">Snapcraft</a>. Чтобы найти приложение в репозитории Snapcraft, используется команда <code>sudo snap search <название_приложения></code>. Для установки, соответственно, используется команда <code>sudo snap install <название_приложения></code>, а для удаления <code>sudo snap remove <название_приложения></code>.</p>
+<p>Третий способ — установка приложения с файла пакета Debian. Для этого нам нужно открыть терминал с той директории, где находится файл пакета, и для его установки используется команда <code>sudo dpkg -i <название_пакета>*</code>. Звёздочка в конце означает обработку всех пакетов, которые находятся в папке после названия, чтобы не писать дополнительно номера версий и тому подобное. Для удаления таких пакетов используется команда <code>sudo apt remove <название_пакета></code>, о чём упоминалось выше.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oODoGfbJ7Jo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+<font size="3"><i style="font-family:roman;">© Проект про Xubuntu, 2019.<br>© DmitryVista, 2014-2019.</i></font>
+</body>
+</meta>
+</html>
