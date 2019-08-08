@@ -1,0 +1,2 @@
+RewriteEngine on
+ErrorDocument 403 https://dmitryvista.github.io/xbunturus/403.html
