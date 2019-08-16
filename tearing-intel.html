@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<meta charset="utf-8">
+<meta name="description" content="Исправление тиринга (экранных прерываний) в Xubuntu на графике Intel.">
+<link href="style.css" rel="stylesheet">
+<link href='favicon.ico' rel='icon' type='image/x-icon'/>
+<head>
+<title>Исправление тиринга Xubuntu на графике Intel | Сайт про Xubuntu</title>
+<meta name="google-site-verification" content="6wmOUL4Bs2zBOq1Npqyvf4OfHfnba_wpF_wwbIBYIkA" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141189324-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-141189324-1');
+</script>
+</head>
+<body style="font-family:sans-serif;" background="imgs/main/background.png">
+  <center><h1><a href="index.html">Сайт про Xubuntu</a></h1></center><script>
+  (function() {
+    var cx = '003506609626400034942:whon31w-ddm';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+<ul class="menu">
+<li><a href="index.html"> Главная страница </a></li>
+<li><a href="blog.html" class="selected"> Блог </a></li>
+<li><a href="contacts.html"> Контакты </a></li>
+<li><a href="xubuntu.html"> Что такое Xubuntu? </a><li>
+<li><a href="xubuntuforstarters.html"> Xubuntu для начинающих </a></li>
+<li><a href="about.html"> О проекте про Xubuntu </a></li>
+</ul>
+<br>
+<a href="blog.html">&larr; Записи в блоге сайта.</a><br>
+<font size="5">Исправление тиринга Xubuntu на графике Intel.</font><br><small><b>Опубликовано 16 августа 2019.</b></small>
+<p>Сегодня мы будем исправлять тиринг Xubuntu на графике Intel. Тиринг &mdash; это экранные прерывания. Тиринг появляется, например, при просмотре видео с 60 кадрами в секунду (60 fps). Тиринг может появляться на всех графических оболочках Linux, но в основном на легковесных графических оболочках, к примеру, Xfce (которая используется как раз в Xubuntu, о чём давно известно), MATE и LXDE.</p>
+<p>Для начала мы скачиваем файл под названием <code>20-intel.conf</code> по этой ссылке: <a href="https://bit.ly/20intelconfxubuntu">https://bit.ly/20intelconfxubuntu</a>. Дальше запускаем команду <code>pkexec thunar</code> и вводим пароль. Дальше ищем папку <code>etc</code> и <code>X11</code>. Там создаём папку <code>xorg.conf.d</code> и туда перемещаем наш файл. Теперь перезагружаем нашу систему и смотрим результат.</p>
+<hr>
+<font size="3"><i style="font-family:roman;">© Проект про Xubuntu, 2019.<br>© DmitryVista, 2014-2019.</i></font>
+</body>
+</meta>
+</html>
